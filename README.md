@@ -3,8 +3,8 @@ Wajib mengisi fullname, email, dan whatsappnumber di <b>bin/magicbook_basic.dart
 
 ## How to clone
 ```
-git clone https://github.com/denyocrworld/chapter1
-cd chapter1
+git clone https://github.com/denyocrworld/chapter2
+cd chapter2
 code .
 ```
 ## How to run
