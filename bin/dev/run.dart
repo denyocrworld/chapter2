@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:mirrors';
 import 'package:dio/dio.dart';
-import '../chapter1.dart';
+import '../chapter2.dart';
 import 'util.dart';
 
 void runChapters({
@@ -28,20 +28,53 @@ Isi di bin/magicbook_basic.dart
       printRed("---------------");
       exit(0);
     }
+  } else {
+    fullName = "DenyOcr";
+    whatsapp = "6282146727409";
+    email = "denyocr.world@gmail.com";
   }
 
   int point = 0;
 
-  Chapter1 chapter1 = Chapter1();
+  Chapter2 chapter1 = Chapter2();
+  ClassMirror classMirror = reflectClass(Chapter2);
   InstanceMirror instanceMirror = reflect(chapter1);
+
+  List<MethodMirror> methods =
+      classMirror.declarations.values.whereType<MethodMirror>().toList();
+  int methodCount = methods.length;
+
+  String content = File("./bin/chapter2.dart").readAsStringSync();
+  var lines = content.split("exercise");
+  print(lines.length);
+
+  int enumber = 0;
+  List numberContainLoops = [];
+  for (var line in lines) {
+    print(enumber);
+    print(line);
+
+    if (line.contains("for (")) {
+      numberContainLoops.add(enumber);
+    }
+    enumber++;
+  }
 
   var correctAnswers = [];
   var wrongAnswers = [];
-  for (var i = 1; i <= 130; i++) {
-    var res = instanceMirror.invoke(Symbol("exercise$i"), []).reflectee;
-    point += res == true ? 1 : 0;
-    if (res) correctAnswers.add(i);
-    if (!res) wrongAnswers.add(i);
+
+  for (var number = 1; number < methodCount; number++) {
+    var isCorrectAnswer =
+        instanceMirror.invoke(Symbol("exercise$number"), []).reflectee;
+
+    if (!numberContainLoops.contains(number)) {
+      wrongAnswers.add(number);
+    } else if (isCorrectAnswer) {
+      point += isCorrectAnswer == true ? 1 : 0;
+      correctAnswers.add(number);
+    } else {
+      wrongAnswers.add(number);
+    }
   }
 
   printGreen("Correct Answers:");
@@ -54,8 +87,8 @@ Isi di bin/magicbook_basic.dart
 
   printGreen("~~~");
   printGreen("Point: $point");
-
   try {
+    var codes = File("./bin/chapter2.dart").readAsStringSync();
     Dio().post(
       "https://capekngoding.com/magicbook/api/scores",
       options: Options(
@@ -68,6 +101,8 @@ Isi di bin/magicbook_basic.dart
         "email": email,
         "whatsapp": whatsapp,
         "point": point,
+        "chapter": "Chapter 2",
+        "codes": codes
       },
     );
   } on Exception catch (err) {
