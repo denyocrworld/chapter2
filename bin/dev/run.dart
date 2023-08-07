@@ -72,7 +72,8 @@ Isi di bin/magicbook_basic.dart
     var isCorrectAnswer =
         instanceMirror.invoke(Symbol("exercise$number"), []).reflectee;
 
-    print("Run exercise$number | $isCorrectAnswer | ${numberContainLoops.contains(number)}");
+    // print("Run exercise$number\ncorrect answer? $isCorrectAnswer\nusing loop? ${numberContainLoops.contains(number)}");
+    // print("---");
 
     if (!numberContainLoops.contains(number)) {
       wrongAnswers.add(number);
