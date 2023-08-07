@@ -18,4 +18,4 @@ nodemon --exec dart bin/magicbook_basic.dart
 ```
 
 #### Kelas Online DenyOcr
-#### Buka : capekngoding.com
+<a href="https://capekngoding.com">CapekNgoding.com</a>
