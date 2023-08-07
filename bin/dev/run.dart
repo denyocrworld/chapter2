@@ -59,7 +59,7 @@ Isi di bin/magicbook_basic.dart
       exit(0);
     }
 
-    if (line.contains("for (")) {
+    if (line.contains("for (") || line.contains("for(")) {
       numberContainLoops.add(enumber);
     }
     enumber++;
@@ -77,11 +77,13 @@ Isi di bin/magicbook_basic.dart
 
     if (!numberContainLoops.contains(number)) {
       wrongAnswers.add(number);
-    } else if (isCorrectAnswer) {
-      point += isCorrectAnswer == true ? 1 : 0;
-      correctAnswers.add(number);
     } else {
-      wrongAnswers.add(number);
+      if (isCorrectAnswer) {
+        point += isCorrectAnswer == true ? 1 : 0;
+        correctAnswers.add(number);
+      } else {
+        wrongAnswers.add(number);
+      }
     }
   }
 
