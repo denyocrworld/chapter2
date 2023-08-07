@@ -46,13 +46,18 @@ Isi di bin/magicbook_basic.dart
 
   String content = File("./bin/chapter2.dart").readAsStringSync();
   var lines = content.split("exercise");
-  print(lines.length);
 
   int enumber = 0;
   List numberContainLoops = [];
   for (var line in lines) {
-    print(enumber);
-    print(line);
+    if (line.contains("TODO:") == -1) {
+      print("ERR2: Soal nomor $enumber tidak benar!");
+      exit(0);
+    }
+    if (line.contains("// --- End of Answer ---") == -1) {
+      print("ERR2: Soal nomor $enumber tidak benar!");
+      exit(0);
+    }
 
     if (line.contains("for (")) {
       numberContainLoops.add(enumber);
