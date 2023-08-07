@@ -1,16 +1,9 @@
-/*
-Semua soal ini harus dijawab dengan looping menggunakan for!
-Jika kamu tidak menjawab dengan for, maka soal dianggap tidak benar
-*/
-import 'dart:io';
-
 class Chapter2 {
   bool? exercise1() {
     List numbers = [10, 20, 30, 40];
     List output = [];
     // ? Instruksi:Gunakan looping for untuk menambahkan semua item dari numbers ke output
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
     return output.toString() == "[10, 20, 30, 40]";
@@ -23,7 +16,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menambahkan semua item dari fruits ke output
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return output.toString() == "[apple, banana, orange]";
@@ -35,7 +27,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menambahkan semua item dari numbers ke output
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -50,7 +41,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari apakah terdapat 'kiwi' dalam list fruits
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return output == true;
@@ -63,7 +53,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengisi list multiplesOfN dengan kelipatan n dari 1 hingga 5
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -78,7 +67,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari colors menjadi satu string result
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return result == "redgreenblue";
@@ -91,7 +79,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menjumlahkan semua item dari numbers ke dalam variabel sum
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -106,7 +93,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengalikan semua item dari numbers ke dalam variabel product
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return product == 120;
@@ -120,7 +106,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari numbers secara terbalik
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return reversedNumbers.toString() == "[5, 4, 3, 2, 1]";
@@ -133,7 +118,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan item dari numbers yang merupakan bilangan ganjil
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -149,7 +133,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list numbers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return exists;
@@ -164,7 +147,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list fruits
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return !exists;
@@ -177,7 +159,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengecek apakah semua angka dalam list numbers adalah bilangan genap
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -192,7 +173,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengecek apakah semua angka dalam list numbers dapat dibagi dengan 3 (hasil bagi = 0)
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
     return allDivisibleBy3;
   }
@@ -205,7 +185,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari apakah target ada di dalam list fruits
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -220,7 +199,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menjumlahkan semua angka dalam list numbers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return sum == 15;
@@ -233,7 +211,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list fruits menjadi satu string joinedFruits
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -248,7 +225,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengalikan semua angka dalam list numbers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return product == 3840;
@@ -261,7 +237,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari list numbers secara terbalik
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -276,7 +251,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan item dari list numbers yang merupakan bilangan ganjil
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return oddNumbers.toString() == "[1, 3, 5]";
@@ -289,7 +263,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menghitung total penjualan (salesTotal) dari list sales
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -304,7 +277,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung rata-rata penjualan (salesAverage) dari list sales
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return salesAverage == 300;
@@ -318,7 +290,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari harga produk termurah (cheapestProduct) dari list productPrices
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return cheapestProduct == 500;
@@ -331,7 +302,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari harga produk termahal (expensiveProduct) dari list productPrices
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -353,7 +323,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk favorit (favoriteProduct) yang paling sering muncul dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return favoriteProduct == "banana";
@@ -366,7 +335,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengisi list squaredNumbers dengan nilai kuadrat dari setiap angka dalam list numbers
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -381,7 +349,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers dengan angka genap dari list numbers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return evenNumbers.toString() == "[2, 4]";
@@ -394,7 +361,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengisi list oddNumbers dengan angka ganjil dari list numbers
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -409,7 +375,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list capitalizedFruits dengan semua item dari list fruits yang telah dijadikan huruf kapital
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return capitalizedFruits.toString() == "[APPLE, BANANA, ORANGE]";
@@ -422,7 +387,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list names menjadi satu string concatenatedNames, dipisahkan oleh koma
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
     return concatenatedNames == "Alice,Bob,Charlie,David";
@@ -461,7 +425,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list filteredFruits dengan nama-nama buah yang memiliki huruf 'a' di dalamnya.
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return filteredFruits.toString() == "[apple, orange, banana, mango]";
@@ -474,7 +437,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menjumlahkan semua item dari numbers ke dalam variabel sum, tetapi berhenti jika jumlahnya mencapai 10.
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -489,7 +451,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list reversedNumbers dengan item dari numbers secara terbalik
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return reversedNumbers.toString() == "[1, 3, 7, 2, 5]";
@@ -502,7 +463,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menggabungkan semua item dari list words menjadi satu string concatenatedWords, dipisahkan oleh spasi.
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -517,7 +477,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list squaredNumbers dengan hasil kuadrat dari setiap angka dalam list numbers.
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return squaredNumbers.toString() == "[25, 4, 49, 9, 1]";
@@ -530,7 +489,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari nilai terkecil (minimum) dalam list numbers dan simpan dalam variabel minValue.
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -545,7 +503,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari nilai terbesar (maximum) dalam list numbers dan simpan dalam variabel maxValue.
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return maxValue == 7;
@@ -558,7 +515,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mengisi list evenNumbers dengan angka-angka genap dari list numbers.
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -574,7 +530,6 @@ class Chapter2 {
     // dengan angka-angka genap dari list numbers.
     // Kalikan angka genap itu dengan 9
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -605,7 +560,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang huruf depannya adalah A
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 1;
@@ -634,7 +588,6 @@ class Chapter2 {
     List<Map<String, dynamic>> filteredUsers = [];
     // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang huruf depannya adalah "D"
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -665,7 +618,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan ketentuan User yang usianya di atas 30 tahun
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return filteredUsers.isNotEmpty && filteredUsers[0]["id"] == 2;
@@ -694,7 +646,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk mengisi list names dengan semua nama dari users
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -725,7 +676,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk mencari user dengan id = 2 dan kembalikan nilai usianya
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return age == 31;
@@ -754,7 +704,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk mengecek apakah users mengandung user dengan id = 3
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -785,7 +734,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk mengupdate usia setiap user menjadi usia + 1 dan masukkan ke dalam list updatedUsers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return updatedUsers.isNotEmpty && updatedUsers[0]["age"] == 30;
@@ -814,7 +762,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk mengisi list filteredUsers dengan user yang memiliki properti "address"
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -845,7 +792,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk mengisi list names dengan nama-nama user yang usianya kurang dari 30 tahun
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return names.isNotEmpty && names.length == 2;
@@ -874,7 +820,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk mencari user dengan id = 3 dan hapus user tersebut dari list users
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return users.length == 2 && users[1]["name"] == "David";
@@ -892,7 +837,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk menghitung total penjualan (amount positif) dari data transaksi
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -912,7 +856,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk menghitung total refund (amount negatif) dari data transaksi
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalRefunds == 200;
@@ -930,7 +873,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk menghitung total penjualan dengan isPromo true dari data transaksi
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -950,7 +892,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk menghitung total penjualan kategori "Electronics" dari data transaksi
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalElectronicsSales == 1500;
@@ -968,7 +909,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk menghitung total refund kategori "Fashion" dari data transaksi
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -988,7 +928,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk menghitung total penjualan kategori "Electronics" dari data transaksi
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalSalesInElectronics == 1500;
@@ -1006,7 +945,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk menghitung total refund kategori "Electronics" dari data transaksi
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1027,7 +965,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk menghitung total penjualan dan refund dari data transaksi
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalSales == 2300 && totalRefunds == 200;
@@ -1045,7 +982,6 @@ class Chapter2 {
     // Instruksi: Gunakan looping for untuk menghitung total gaji (hoursWorked * hourlyRate) dari data karyawan
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
     return totalSalary == 2150;
   }
@@ -1061,7 +997,6 @@ class Chapter2 {
 
     // Instruksi: Gunakan looping for untuk mencari nilai maksimum dari "hourlyRate" pada data karyawan
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1080,7 +1015,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung total harga dari semua produk di dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalHarga == 750000;
@@ -1098,7 +1032,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung total pendapatan dari semua transaksi di dalam list transactions
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalPendapatan == 375000;
@@ -1115,7 +1048,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menghitung total gaji dari semua karyawan di dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1136,7 +1068,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung total nilai pemesanan dari semua orders di dalam list orders
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalNilaiPemesanan == 1300000.0;
@@ -1153,7 +1084,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari nilai tertinggi dari shippingCost di dalam list shipments
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1173,7 +1103,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung jumlah kehadiran (isPresent = true) di dalam list attendance
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return jumlahHadir == 2;
@@ -1191,7 +1120,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari nilai tertinggi dari stock di dalam list warehouse
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return maxStok == 50;
@@ -1208,7 +1136,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menghitung jumlah tugas yang telah selesai (progress = 100) di dalam list projectTasks
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1228,7 +1155,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mengisi list hadirOnly dengan data karyawan yang hadir (isPresent = true)
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return hadirOnly.length == 2;
@@ -1246,7 +1172,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menghitung total nilai dari semua siswa di dalam list studentScores
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1267,7 +1192,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung total penjualan (quantitySold) dari semua produk di dalam list sales
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalSales == 180;
@@ -1285,7 +1209,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung total gaji (salary) dari semua karyawan di dalam list employees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return totalSalary == 15500000;
@@ -1302,7 +1225,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk menghitung rata-rata usia (age) dari semua karyawan di dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1322,7 +1244,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari harga termahal dan harga termurah dari semua produk di dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return maxPrice == 350000 && minPrice == 150000;
@@ -1340,7 +1261,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari produk terlaris (dengan quantitySold terbanyak) di dalam list products
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1360,7 +1280,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari karyawan terbaik (dengan KPI tertinggi) di dalam list employees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return bestEmployee == "John";
@@ -1377,7 +1296,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI rendah (kurang dari 80) di dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1396,7 +1314,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk menghitung total KPI dari semua karyawan di dalam list employees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     double averageKpi = totalKpi / employees.length;
@@ -1411,15 +1328,16 @@ class Chapter2 {
       {"id": 3, "name": "Headphones", "price": 350000, "quantitySold": 75},
     ];
 
-    double maxPrice = 0;
-    double minPrice = double.infinity;
+    int maxPrice = 0;
+    int minPrice = 0;
 
     // ? Instruksi: Gunakan looping for untuk mencari harga termahal dan harga termurah dari semua produk di dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
+    print(maxPrice);
+    print(minPrice);
     return maxPrice == 350000 && minPrice == 150000;
   }
 
@@ -1435,7 +1353,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari produk terlaris (dengan quantitySold terbanyak) di dalam list products
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1455,7 +1372,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi bagus (sedikit absentDays) di dalam list employees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return bestEmployee == "Bob";
@@ -1474,7 +1390,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return bestProduct == "Headphones";
@@ -1491,7 +1406,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI tinggi (lebih dari 80) di dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1511,7 +1425,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan penjualan tercepat (dengan soldInDays terbanyak) di dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return bestProducts.length == 1 && bestProducts.contains("Headphones");
@@ -1529,7 +1442,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan KPI tinggi (lebih dari 80) di dalam list employees
     // Kemudian masukkan data karyawan tersebut ke dalam list highPerformers
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1551,7 +1463,6 @@ class Chapter2 {
     // Kemudian masukkan data karyawan tersebut ke dalam list lowPerformers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return lowPerformers.length == 1 && lowPerformers[0]["name"] == "Bob";
@@ -1571,7 +1482,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list bestProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return bestProducts.length == 1 && bestProducts[0]["name"] == "Headphones";
@@ -1589,7 +1499,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi bagus (sedikit absentDays) di dalam list employees
     // Kemudian masukkan data karyawan tersebut ke dalam list goodPerformers
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1610,7 +1519,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list bestProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return bestProducts.length == 1 && bestProducts[0]["name"] == "Headphones";
@@ -1628,7 +1536,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan absensi buruk (lebih dari 3 hari absentDays) di dalam list employees
     // Kemudian masukkan data karyawan tersebut ke dalam list badPerformers
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1648,7 +1555,6 @@ class Chapter2 {
     // Kemudian masukkan nama karyawan tersebut ke dalam list hrEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return hrEmployees.length == 1 && hrEmployees.contains("John");
@@ -1666,7 +1572,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 200000
     // Kemudian masukkan nama produk tersebut ke dalam list expensiveProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1688,7 +1593,6 @@ class Chapter2 {
     // Kemudian masukkan nama karyawan tersebut ke dalam list financeEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return financeEmployees.length == 1 && financeEmployees.contains("Alice");
@@ -1706,7 +1610,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 300000
     // Kemudian masukkan nama produk tersebut ke dalam list affordableProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1728,7 +1631,6 @@ class Chapter2 {
     // Jika ditemukan, simpan nama karyawan tersebut pada variabel hrEmployee
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return hrEmployee == "John";
@@ -1746,7 +1648,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga lebih dari 300000
     // Jika ditemukan, simpan nama produk tersebut pada variabel expensiveProduct
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1766,7 +1667,6 @@ class Chapter2 {
     // Kemudian masukkan nama karyawan tersebut ke dalam list itEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return itEmployees.length == 1 && itEmployees.contains("Bob");
@@ -1784,7 +1684,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan harga kurang dari 200000
     // Kemudian masukkan nama produk tersebut ke dalam list affordableProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1807,7 +1706,6 @@ class Chapter2 {
     // Jika ditemukan, simpan nama, usia, dan jenis kelaminnya pada variabel yang telah disediakan
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return name == "Alice" && age == 32 && gender == "Female";
@@ -1826,7 +1724,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
     return matchedProducts.isEmpty;
   }
@@ -1843,7 +1740,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari karyawan dengan nama mengandung huruf "Do"
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1864,7 +1760,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 1 &&
@@ -1884,7 +1779,6 @@ class Chapter2 {
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedEmployees.length == 1 &&
@@ -1903,7 +1797,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari produk dengan nama mengandung huruf "Logi"
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1925,7 +1818,6 @@ class Chapter2 {
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedEmployees.length == 1 &&
@@ -1946,7 +1838,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 3;
@@ -1965,7 +1856,6 @@ class Chapter2 {
     // dan usia kurang dari 30 tahun
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -1987,7 +1877,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 2;
@@ -2006,7 +1895,6 @@ class Chapter2 {
     // dan usia lebih dari 30 tahun
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2027,7 +1915,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 0;
@@ -2046,7 +1933,6 @@ class Chapter2 {
     // atau nama mengandung huruf "Smith"
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2068,7 +1954,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 1 &&
@@ -2088,7 +1973,6 @@ class Chapter2 {
     // atau nama depan mengandung huruf "Bob"
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2111,7 +1995,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 1 &&
@@ -2131,7 +2014,6 @@ class Chapter2 {
     // dan nama belakang mengandung huruf "son"
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2153,7 +2035,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 0;
@@ -2173,7 +2054,6 @@ class Chapter2 {
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedEmployees.isEmpty;
@@ -2192,7 +2072,6 @@ class Chapter2 {
     // dan nama mengandung huruf "Sony" dalam produk
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2214,7 +2093,6 @@ class Chapter2 {
     // Kemudian masukkan data karyawan tersebut ke dalam list matchedEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedEmployees.length == 1 &&
@@ -2235,7 +2113,6 @@ class Chapter2 {
     // Kemudian masukkan data produk tersebut ke dalam list matchedProducts
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return matchedProducts.length == 1 &&
@@ -2255,7 +2132,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari index dari order dengan id 3 dalam list orders
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return index == 2;
@@ -2273,7 +2149,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "Eva" dan salary lebih dari 6000 dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
     return index == 3;
@@ -2293,7 +2168,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan id 5 dan type "Purchase" dalam list transactions
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return index == 4;
@@ -2312,7 +2186,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari index dari product dengan id 2 dan price 1200 dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return index == 1;
@@ -2330,7 +2203,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "Bob" dan age lebih dari 30 dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2351,7 +2223,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan type "Refund" dan status "Pending" dalam list transactions
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return index == 2;
@@ -2370,7 +2241,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari index dari product dengan name "Headphones" dan stock lebih dari 15 dalam list products
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
     return index == 2;
   }
@@ -2387,7 +2257,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari index dari employee dengan name "John", age 30, dan department "Sales" dalam list employees
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2408,7 +2277,6 @@ class Chapter2 {
     // ? Instruksi: Gunakan looping for untuk mencari index dari transaction dengan amount 75 dan status "Completed" dalam list transactions
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return index == 3;
@@ -2426,7 +2294,6 @@ class Chapter2 {
 
     // ? Instruksi: Gunakan looping for untuk mencari product dengan stock kurang dari 10 dan masukkan ke dalam list filteredProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2493,7 +2360,6 @@ class Chapter2 {
     // Masukkan user yang memenuhi kriteria tersebut ke dalam list subscribedUsers
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return subscribedUsers.isEmpty;
@@ -2557,7 +2423,6 @@ class Chapter2 {
     // memiliki rating di atas 4.5, tersedia (isAvailable = true), dan memiliki lebih dari 100 ulasan (reviews > 100)
     // Masukkan product yang memenuhi kriteria tersebut ke dalam list featuredProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2626,7 +2491,6 @@ class Chapter2 {
     // Masukkan karyawan yang memenuhi kriteria tersebut ke dalam list highPaidEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
     return highPaidEmployees.isEmpty;
   }
@@ -2689,7 +2553,6 @@ class Chapter2 {
     // dan stok produk kurang dari 10 (stock < 10)
     // Masukkan product yang memenuhi kriteria tersebut ke dalam list lowRatedProducts
     // TODO: Tulis kode for loop di sini
-
 
     // --- End of Answer ---
 
@@ -2756,140 +2619,8 @@ class Chapter2 {
     // Masukkan karyawan yang memenuhi kriteria tersebut ke dalam list partTimeEmployees
     // TODO: Tulis kode for loop di sini
 
-
     // --- End of Answer ---
 
     return partTimeEmployees.isEmpty;
-  }
-
-  // Exercise 136
-  bool exercise136() {
-    List<Map<String, dynamic>> products = [
-      {
-        "id": 1,
-        "name": "Phone",
-        "price": 500,
-        "stock": 10,
-        "category": "Electronics",
-        "brand": "Apple",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.5,
-        "reviews": 100
-      },
-      {
-        "id": 2,
-        "name": "Laptop",
-        "price": 1200,
-        "stock": 5,
-        "category": "Electronics",
-        "brand": "Dell",
-        "isAvailable": true,
-        "isFeatured": false,
-        "rating": 4.2,
-        "reviews": 50
-      },
-      {
-        "id": 3,
-        "name": "Headphones",
-        "price": 50,
-        "stock": 20,
-        "category": "Electronics",
-        "brand": "Sony",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.7,
-        "reviews": 200
-      },
-      {
-        "id": 4,
-        "name": "TV",
-        "price": 800,
-        "stock": 15,
-        "category": "Electronics",
-        "brand": "Samsung",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.8,
-        "reviews": 300
-      },
-    ];
-    List<Map<String, dynamic>> lowStockProducts = [];
-
-    // Instruksi: Gunakan looping for untuk mencari product dengan stok kurang dari 5 (stock < 5),
-    // dan rating produk di atas 4.5 (rating > 4.5)
-    // Masukkan product yang memenuhi kriteria tersebut ke dalam list lowStockProducts
-    // TODO: Tulis kode for loop di sini
-
-
-    // --- End of Answer ---
-
-    return lowStockProducts.isNotEmpty;
-  }
-
-  bool? exercise137() {
-    List<Map<String, dynamic>> products = [
-      {
-        "id": 1,
-        "name": "Phone",
-        "price": 500,
-        "stock": 10,
-        "category": "Electronics",
-        "brand": "Apple",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.5,
-        "reviews": 100
-      },
-      {
-        "id": 2,
-        "name": "Laptop",
-        "price": 1200,
-        "stock": 5,
-        "category": "Electronics",
-        "brand": "Dell",
-        "isAvailable": true,
-        "isFeatured": false,
-        "rating": 4.2,
-        "reviews": 50
-      },
-      {
-        "id": 3,
-        "name": "Headphones",
-        "price": 50,
-        "stock": 20,
-        "category": "Electronics",
-        "brand": "Sony",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.7,
-        "reviews": 200
-      },
-      {
-        "id": 4,
-        "name": "TV",
-        "price": 800,
-        "stock": 15,
-        "category": "Electronics",
-        "brand": "Samsung",
-        "isAvailable": true,
-        "isFeatured": true,
-        "rating": 4.8,
-        "reviews": 300
-      },
-    ];
-    List<Map<String, dynamic>> lowStockHighRatingProducts = [];
-
-    // Instruksi: Gunakan looping for untuk mencari product dengan stok kurang dari 5 (stock < 5),
-    // dan rating produk di atas 4.5 (rating > 4.5)
-    // Masukkan product yang memenuhi kriteria tersebut ke dalam list lowStockHighRatingProducts
-    // TODO: Tulis kode for loop di sini
-
-
-    // --- End of Answer ---
-
-    return lowStockHighRatingProducts.isNotEmpty
-        ? lowStockHighRatingProducts[0]["id"] == 2
-        : false;
   }
 }
